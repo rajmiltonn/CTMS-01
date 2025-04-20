@@ -296,7 +296,7 @@ const ContactPage = () => {
           <div className="h-[400px] rounded-lg overflow-hidden shadow-lg">
             {/* Replace this iframe with your actual Google Maps embed code */}
             <iframe
-              src="https://www.google.com/maps/place/Cloud+Tech+Mind+Solutions/@12.9640794,80.1508437,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525ff43f959715:0x68faaff50cb5aeb2!8m2!3d12.9640742!4d80.1534186!16s%2Fg%2F11kf2vvd1f?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6347335661215!2d80.15082517481727!3d12.96407239285225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ff43f959715%3A0x68faaff50cb5aeb2!2sCloud%20Tech%20Mind%20Solutions!5e0!3m2!1sen!2sin!4v1617764014853!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
