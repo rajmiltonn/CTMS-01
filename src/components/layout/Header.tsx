@@ -18,7 +18,7 @@ const navLinks: NavLink[] = [
   { href: '/academics', label: 'Courses' },
   { href: '/facilities', label: 'Services' },
   { href: '/admissions', label: 'Transformations' },
-  { href: '/news-events', label: 'Blog' },
+  { href: '/news-events', label: 'Updates' },
   { href: '/contact', label: 'Contact Us' },
 ];
 
