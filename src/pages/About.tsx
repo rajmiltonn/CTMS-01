@@ -27,13 +27,15 @@ const AboutPage = () => {
           <div className="flex flex-col md:flex-row items-center gap-10 md:gap-12">
             <div className="md:w-1/2 space-y-4">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">
-                About Excellence Academy
+                About Cloud Tech Mind Solutions
               </h1>
               <Separator className="my-4" />
               <p className="text-gray-600">
-                Founded in 1995, Excellence Academy has been providing high-quality education for over 25 years.
-                We are dedicated to nurturing young minds in a stimulating environment that fosters academic excellence,
-                personal growth, and social responsibility.
+                Founded in Chennai, Cloud Tech Mind Solutions (CTMS) is a leading CRM product development and IT
+                 training company. With a strong focus on digital transformation, we specialize in cloud 
+                 consulting, product fitment, and skill development. CTMS empowers students and professionals 
+                 through real-time industry training, hands-on projects, and expert-led workshops to 
+                 bridge the gap between knowledge and career success.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1]">
@@ -60,8 +62,12 @@ const AboutPage = () => {
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 text-center">Our History</h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-center mb-12">
-            For over two decades, Excellence Academy has grown from a small community school to a renowned institution
-            that has shaped the lives of thousands of students.
+          Cloud Tech Mind Solutions (CTMS) is a dynamic IT consulting and training company, specializing in CRM
+           cloud solutions and career transformation programs. Based in Chennai, we are committed to guiding
+            students, freshers, and professionals through cutting-edge technologies like Salesforce, Data Science,
+             Full Stack Development, and Digital Marketing. With a strong foundation in real-time product development
+              and industry-led instruction, CTMS helps learners unlock their true potential and achieve lasting 
+              career growth.
           </p>
 
           <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
@@ -70,10 +76,10 @@ const AboutPage = () => {
                 <span className="font-bold">1</span>
               </div>
               <div className="ml-8 md:ml-0 md:w-5/12 bg-white p-5 rounded-lg shadow">
-                <div className="font-bold text-xl mb-1">1995: Foundation</div>
+                <div className="font-bold text-xl mb-1">2012: Foundation</div>
                 <p className="text-gray-600">
-                  Excellence Academy was founded by Dr. James Peterson with a vision to create a school that would prepare students
-                  not just academically but also for life beyond the classroom.
+                CTMS was founded with a vision to bridge the gap between academic learning and industry demands, 
+                offering real-time CRM consulting and technical training.
                 </p>
               </div>
             </div>
@@ -83,10 +89,10 @@ const AboutPage = () => {
                 <span className="font-bold">2</span>
               </div>
               <div className="ml-8 md:ml-0 md:w-5/12 bg-white p-5 rounded-lg shadow">
-                <div className="font-bold text-xl mb-1">2005: Expansion</div>
+                <div className="font-bold text-xl mb-1">2016: Expansion</div>
                 <p className="text-gray-600">
-                  With increasing enrollment and recognition, we expanded our campus to include state-of-the-art
-                  science laboratories, a modern library, and enhanced sports facilities.
+                With growing demand from enterprises and colleges, CTMS expanded into large-scale corporate 
+                training, bootcamps, and placement-focused programs across various tech domains.
                 </p>
               </div>
             </div>
@@ -96,10 +102,10 @@ const AboutPage = () => {
                 <span className="font-bold">3</span>
               </div>
               <div className="ml-8 md:ml-0 md:w-5/12 bg-white p-5 rounded-lg shadow">
-                <div className="font-bold text-xl mb-1">2015: Innovation</div>
+                <div className="font-bold text-xl mb-1">2020: Innovation</div>
                 <p className="text-gray-600">
-                  We introduced innovative teaching methodologies and integrated technology into our classrooms,
-                  transforming the learning experience for our students.
+                We integrated live product development, mentorship from seasoned professionals, 
+                and flexible learning models to offer a truly immersive training experience.
                 </p>
               </div>
             </div>
@@ -111,8 +117,8 @@ const AboutPage = () => {
               <div className="ml-8 md:ml-0 md:w-5/12 bg-white p-5 rounded-lg shadow">
                 <div className="font-bold text-xl mb-1">Present: Excellence</div>
                 <p className="text-gray-600">
-                  Today, Excellence Academy stands as a beacon of educational excellence, with alumni making significant
-                  contributions in various fields globally.
+                Today, CTMS stands as a trusted name in IT transformation—helping students, professionals, 
+                and entrepreneurs achieve breakthrough success in the digital world.
                 </p>
               </div>
             </div>
@@ -126,7 +132,9 @@ const AboutPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4">Our Mission & Values</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              At Excellence Academy, we are guided by a clear mission and core values that shape everything we do.
+            To deliver transformative, practical, and personalized IT training and consulting that empowers 
+            learners to thrive in a digital-first world, while creating measurable impact for individuals 
+            and organizations.
             </p>
           </div>
 
@@ -134,12 +142,13 @@ const AboutPage = () => {
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600 mb-4">
-                To provide a transformative educational experience that nurtures intellectual curiosity, personal growth,
-                and social responsibility, preparing students to lead purposeful lives and make positive contributions to society.
+              To deliver transformative, practical, and personalized IT training and consulting that empowers 
+            learners to thrive in a digital-first world, while creating measurable impact for individuals 
+            and organizations.
               </p>
               <p className="text-gray-600">
-                We believe in the potential of every student and are committed to helping them discover and develop their unique talents
-                in a supportive, challenging, and inclusive environment.
+              We believe every learner has the potential to excel. Our mission is to uncover that potential by 
+              providing a supportive, skill-focused, and industry-aligned learning experience.
               </p>
             </div>
           </div>
@@ -150,9 +159,10 @@ const AboutPage = () => {
                 <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
                   <BookOpen className="h-6 w-6 text-[#3A59D1]" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Academic Excellence</h3>
+                <h3 className="text-xl font-bold mb-2">Technical Excellence</h3>
                 <p className="text-gray-600">
-                  We maintain high academic standards and foster a love for learning that extends beyond the classroom.
+                We uphold the highest standards in IT education, ensuring our learners master both foundational 
+                concepts and advanced technologies that drive industry success.
                 </p>
               </CardContent>
             </Card>
@@ -162,9 +172,10 @@ const AboutPage = () => {
                 <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
                   <Heart className="h-6 w-6 text-[#3A59D1]" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Compassion</h3>
+                <h3 className="text-xl font-bold mb-2">Empathy & Support</h3>
                 <p className="text-gray-600">
-                  We cultivate empathy and kindness, teaching students to care for others and the world around them.
+                We create a learning environment where every student is heard, supported, and guided with 
+                compassion—helping them grow both professionally and personally.
                 </p>
               </CardContent>
             </Card>
@@ -176,7 +187,8 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Integrity</h3>
                 <p className="text-gray-600">
-                  We encourage honesty, ethical behavior, and responsibility in all aspects of life.
+                We value honesty, responsibility, and ethical practices in everything we do—from teaching 
+                and consulting to career guidance.
                 </p>
               </CardContent>
             </Card>
@@ -186,9 +198,10 @@ const AboutPage = () => {
                 <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
                   <Globe className="h-6 w-6 text-[#3A59D1]" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Global Citizenship</h3>
+                <h3 className="text-xl font-bold mb-2">Digital Citizenship</h3>
                 <p className="text-gray-600">
-                  We prepare students to thrive in an interconnected world and contribute to global understanding.
+                We prepare learners to thrive in a connected, global tech ecosystem, empowering them to 
+                contribute responsibly to the digital world.
                 </p>
               </CardContent>
             </Card>
@@ -200,7 +213,8 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Growth Mindset</h3>
                 <p className="text-gray-600">
-                  We embrace challenges as opportunities for learning and development.
+                We inspire learners to embrace challenges, overcome limitations, and continuously upskill
+                 to stay relevant in the fast-evolving tech landscape.
                 </p>
               </CardContent>
             </Card>
@@ -210,9 +224,10 @@ const AboutPage = () => {
                 <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
                   <Briefcase className="h-6 w-6 text-[#3A59D1]" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Innovation</h3>
+                <h3 className="text-xl font-bold mb-2">Innovation-Driven Learning</h3>
                 <p className="text-gray-600">
-                  We encourage creative thinking and embrace new approaches to teaching and learning.
+                We foster creativity and hands-on problem-solving, combining real-world projects with emerging 
+                tools to ignite forward-thinking careers.
                 </p>
               </CardContent>
             </Card>
@@ -225,7 +240,8 @@ const AboutPage = () => {
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 text-center">Our Leadership Team</h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-center mb-12">
-            Meet the dedicated professionals who guide our school community with vision and commitment.
+          Meet the passionate minds driving Cloud Tech Mind Solutions with vision, innovation, and a deep 
+          commitment to transforming careers.
           </p>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -238,10 +254,12 @@ const AboutPage = () => {
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Dr. Jennifer Wright</h3>
-                <p className="text-[#3A59D1] font-medium mb-4">Principal</p>
+                <h3 className="text-xl font-bold mb-1">Mr. Iyan Raj</h3>
+                <p className="text-[#3A59D1] font-medium mb-4">Founder & CEO</p>
                 <p className="text-gray-600 text-center">
-                  With over 20 years of experience in education, Dr. Wright leads our school with vision and dedication.
+                With over two decades of IT industry experience, Iyan leads CTMS with a mission to bridge 
+                the gap between education and employment. His vision has empowered thousands of learners to
+                transition into successful tech careers.
                 </p>
               </div>
             </div>
@@ -255,10 +273,12 @@ const AboutPage = () => {
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Mr. Robert Chen</h3>
-                <p className="text-[#3A59D1] font-medium mb-4">Vice Principal, Academics</p>
+                <h3 className="text-xl font-bold mb-1">Mr. Shanmughanadhan</h3>
+                <p className="text-[#3A59D1] font-medium mb-4">Chief Technical Advisor</p>
                 <p className="text-gray-600 text-center">
-                  Mr. Chen oversees our academic programs, ensuring they meet the highest standards of excellence.
+                A senior IT strategist with 20+ years in the industry, Shanmughanadhan designs our technical
+                 programs and consulting frameworks, ensuring alignment with current enterprise demands
+                  and future trends.
                 </p>
               </div>
             </div>
@@ -272,10 +292,11 @@ const AboutPage = () => {
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Ms. Aisha Johnson</h3>
-                <p className="text-[#3A59D1] font-medium mb-4">Vice Principal, Student Affairs</p>
+                <h3 className="text-xl font-bold mb-1">Ms. Amudhambigai</h3>
+                <p className="text-[#3A59D1] font-medium mb-4">Head of Learning & Career Growth</p>
                 <p className="text-gray-600 text-center">
-                  Ms. Johnson is dedicated to creating a supportive environment where all students can thrive.
+                Driven by her passion for education and student success, Amudhambigai oversees all learning pathways, 
+                working closely with learners to map out personalized growth strategies and career transitions.
                 </p>
               </div>
             </div>
@@ -286,17 +307,18 @@ const AboutPage = () => {
       {/* Call to Action */}
       <section className="py-16 bg-[#3A59D1]">
         <div className="container px-4 md:px-6 text-center text-white">
-          <h2 className="text-3xl font-bold tracking-tight mb-4">Join Our School Community</h2>
+          <h2 className="text-3xl font-bold tracking-tight mb-4">Join the CTMS Learning Community</h2>
           <p className="max-w-2xl mx-auto mb-8 text-white/90">
-            We invite you to be part of our journey in shaping the future through education.
-            Schedule a visit to experience Excellence Academy firsthand.
+          We invite you to be part of our mission to transform careers through industry-aligned education and
+           hands-on experience. Take the first step toward your future in tech—explore our programs and 
+           connect with our experts today..
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-[#3A59D1] hover:bg-gray-100">
-              <Link to="/admissions">Apply Now</Link>
+              <Link to="/admissions">Enroll Now</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-              <Link to="/contact">Book a Visit</Link>
+              <Link to="/contact">Book a Free Career Counselling Session</Link>
             </Button>
           </div>
         </div>
