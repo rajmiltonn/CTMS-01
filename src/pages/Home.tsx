@@ -29,10 +29,11 @@ const HomePage = () => {
           />
           <div className="absolute inset-0 bg-black/30 dark:bg-black/50" />
           <div className="container relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white md:px-6">
-            <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
-            Welcome to 
-            Cloud Tech Mind Solutions
-            </h1>
+          <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
+  Welcome to<br />
+  Cloud Tech Mind Solutions
+</h1>
+
             <p className="mb-8 max-w-xl text-lg text-white/90 hero-text">
             Empowering minds, transforming careers, and accelerating excellence in digital education and 
             CRM innovation since inception.
