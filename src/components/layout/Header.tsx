@@ -4,7 +4,8 @@ import { Menu, X, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { useTheme } from '@/components/theme-provider';
-import Logo from '@/assets/school-logo.png';
+import Logo from '@/assets/mylogo.png';
+
 
 type NavLink = {
   href: string;
