@@ -20,35 +20,60 @@ const HomePage = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative bg-white dark:bg-gray-900">
-        <div className="relative h-[70vh] w-full overflow-hidden">
-          <img
-            src={HeroImage}
-            alt="School building"
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/30 dark:bg-black/50" />
-          <div className="container relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white md:px-6">
-          <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
-  Welcome to<br />
-  Cloud Tech Mind Solutions
-</h1>
+     {/* Testimonials Section */}
+<section className="py-16 bg-gradient-to-br from-purple-50 to-white">
+  <div className="container mx-auto text-center">
+    <h2 className="text-3xl font-bold text-gray-800 mb-6">What Our Students Say</h2>
+    <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
+      Discover how CTMS has transformed the careers and lives of our students.
+    </p>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        {
+          quote: "CTMS gave me the skills and confidence to succeed in tech.",
+          name: "Aarav Patel",
+          title: "Software Engineer at Infosys",
+        },
+        {
+          quote: "The mentorship and projects were incredibly valuable.",
+          name: "Sneha Rao",
+          title: "Product Designer at Zoho",
+        },
+        {
+          quote: "I landed my dream job thanks to CTMS’s practical training.",
+          name: "Rohan Mehta",
+          title: "Cloud Architect at TCS",
+        },
+      ].map((testimonial, index) => (
+        <Card key={index} className="p-6 shadow-xl hover:shadow-2xl transition-shadow">
+          <CardContent>
+            <blockquote className="text-lg italic text-gray-700 mb-4">
+              “{testimonial.quote}”
+            </blockquote>
+            <p className="font-semibold text-gray-900">{testimonial.name}</p>
+            <p className="text-sm text-gray-600">{testimonial.title}</p>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  </div>
+</section>
 
-            <p className="mb-8 max-w-xl text-lg text-white/90 hero-text">
-            Empowering minds, transforming careers, and accelerating excellence in digital education and 
-            CRM innovation since inception.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Button asChild size="lg" className="bg-[#3A59D1] hover:bg-[#2A49C1] dark:bg-blue-600 dark:hover:bg-blue-700">
-                <Link to="/admissions">Kickstart Your IT Career</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
-                <Link to="/contact">Get Started</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* Call to Action Section */}
+<section className="py-16 bg-indigo-600 text-white text-center">
+  <div className="container mx-auto">
+    <h2 className="text-3xl font-bold mb-4">Ready to Shape Your Future?</h2>
+    <p className="mb-6 text-lg">
+      Join CTMS and become a part of a community that's redefining tech education.
+    </p>
+    <Button asChild className="bg-white text-indigo-600 hover:bg-gray-100 font-semibold px-6 py-3 text-lg rounded-xl">
+      <Link to="/admissions">
+        Apply Now
+      </Link>
+    </Button>
+  </div>
+</section>
+
 
       {/* About Us Preview */}
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
