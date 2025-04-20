@@ -52,8 +52,9 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Our Location</h3>
-                        <p className="text-gray-600 mb-1">123 Education Street</p>
-                        <p className="text-gray-600">Learning City, LC 12345</p>
+                        <p className="text-gray-600 mb-1">No. 3, 2nd Floor, Royal Tower,</p>
+                        <p className="text-gray-600 mb-1">Opposite MIT Flyover,</p>
+                        <p className="text-gray-600">Pallavaram, Chennai – 600043</p>
                       </div>
                     </div>
                   </CardContent>
@@ -67,8 +68,8 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Phone</h3>
-                        <p className="text-gray-600 mb-1">Main: (123) 456-7890</p>
-                        <p className="text-gray-600">Admissions: (123) 456-7891</p>
+                        <p className="text-gray-600 mb-1">Main: +91 91503 14780</p>
+                        <p className="text-gray-600">Training & Admissions: +91 99403 65182</p>
                       </div>
                     </div>
                   </CardContent>
@@ -82,8 +83,8 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Email</h3>
-                        <p className="text-gray-600 mb-1">info@excellenceacademy.edu</p>
-                        <p className="text-gray-600">admissions@excellenceacademy.edu</p>
+                        <p className="text-gray-600 mb-1">ctms@cloudtechmind.in</p>
+                        <p className="text-gray-600">training@cloudtechmind.in</p>
                       </div>
                     </div>
                   </CardContent>
@@ -97,8 +98,8 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Office Hours</h3>
-                        <p className="text-gray-600 mb-1">Monday - Friday: 8:00 AM - 4:00 PM</p>
-                        <p className="text-gray-600">Saturday: 9:00 AM - 12:00 PM</p>
+                        <p className="text-gray-600 mb-1">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p className="text-gray-600">Saturday: 10:00 AM - 01:00 PM</p>
                       </div>
                     </div>
                   </CardContent>
@@ -108,7 +109,7 @@ const ContactPage = () => {
               <div className="mt-10">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Connect With Us</h3>
                 <p className="text-gray-600 mb-6">
-                  We're also active on social media. Follow us to stay updated on school events and activities.
+                We’re active on social media! Follow us for updates, workshops, career tips, and events.
                 </p>
                 <div className="flex gap-4">
                   <a
@@ -295,7 +296,7 @@ const ContactPage = () => {
           <div className="h-[400px] rounded-lg overflow-hidden shadow-lg">
             {/* Replace this iframe with your actual Google Maps embed code */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15000.000000000000!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1sen!2sus!4v1587000000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/place/Cloud+Tech+Mind+Solutions/@12.9640794,80.1508437,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525ff43f959715:0x68faaff50cb5aeb2!8m2!3d12.9640742!4d80.1534186!16s%2Fg%2F11kf2vvd1f?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -328,8 +329,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-2">What are the best times to visit?</h3>
                     <p className="text-gray-600">
-                      We recommend visiting during our office hours, Monday through Friday from 8:00 AM to 4:00 PM.
-                      For a guided tour, please schedule an appointment in advance.
+                    We recommend visiting during office hours, Monday to Friday, 9:00 AM to 6:00 PM. 
+                    For dedicated guidance, please book an appointment in advance.
                     </p>
                   </div>
                 </div>
@@ -345,8 +346,7 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-2">How long does it take to receive a response?</h3>
                     <p className="text-gray-600">
-                      We strive to respond to all inquiries within 24-48 hours during business days. For urgent matters,
-                      please call our main office directly.
+                    We usually respond within 24–48 business hours. For urgent queries, please call us directly.
                     </p>
                   </div>
                 </div>
@@ -362,8 +362,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-2">Is parking available for visitors?</h3>
                     <p className="text-gray-600">
-                      Yes, visitor parking is available in the main lot in front of the administration building.
-                      Please check in at the front desk upon arrival.
+                    Yes, visitor parking is available in front of our building. Kindly check in at the 
+                    reception upon arrival.
                     </p>
                   </div>
                 </div>
@@ -379,8 +379,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-2">Can I request a specific department?</h3>
                     <p className="text-gray-600">
-                      Yes, when submitting your inquiry, please specify which department you'd like to reach,
-                      and we'll ensure your message is directed appropriately.
+                    Absolutely! Mention the department (training, sales, support, etc.) in your message, 
+                    and we’ll route it accordingly.
                     </p>
                   </div>
                 </div>
@@ -397,10 +397,10 @@ const ContactPage = () => {
             <AlertCircle className="h-12 w-12 mx-auto mb-4" />
             <h2 className="text-3xl font-bold tracking-tight mb-4">Need Immediate Assistance?</h2>
             <p className="mb-6 text-white/90">
-              Our admissions team is ready to answer your questions and help you through the application process.
+            Our support and admissions team are ready to assist you in taking the next step in your career.
             </p>
             <div className="inline-block bg-white px-6 py-3 rounded-lg">
-              <p className="text-[#3A59D1] font-bold text-xl">(123) 456-7890</p>
+              <p className="text-[#3A59D1] font-bold text-xl">Call us: +91 91503 14780</p>
             </div>
           </div>
         </div>

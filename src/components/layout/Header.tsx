@@ -30,7 +30,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link to="/" className="flex items-center gap-2">
           <img src={Logo} alt="School Logo" className="h-10 w-auto" />
-          <span className="text-xl font-bold text-[#3A59D1] hidden md:inline-block dark:text-blue-300">Excellence Academy</span>
+          <span className="text-xl font-bold text-[#3A59D1] hidden md:inline-block dark:text-blue-300">Cloud Tech Mind Solutions</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -66,7 +66,7 @@ const Header = () => {
             className="hidden md:flex bg-[#3A59D1] hover:bg-[#2A49C1] text-white dark:bg-blue-600 dark:hover:bg-blue-700"
             asChild
           >
-            <Link to="/admissions">Admissions Open</Link>
+            <Link to="/admissions">Enroll Now</Link>
           </Button>
 
           {/* Mobile Navigation */}
@@ -83,7 +83,7 @@ const Header = () => {
                   <div className="flex items-center justify-between">
                     <Link to="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
                       <img src={Logo} alt="School Logo" className="h-8 w-auto" />
-                      <span className="text-xl font-bold text-[#3A59D1] dark:text-blue-300">Excellence Academy</span>
+                      <span className="text-xl font-bold text-[#3A59D1] dark:text-blue-300">Cloud Tech Mind solutions </span>
                     </Link>
                     <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
                       <X className="h-5 w-5" />
@@ -130,7 +130,7 @@ const Header = () => {
                       asChild
                       onClick={() => setIsOpen(false)}
                     >
-                      <Link to="/admissions">Admissions Open</Link>
+                      <Link to="/admissions">Registration Form</Link>
                     </Button>
                   </div>
                 </nav>
