@@ -40,7 +40,7 @@ const HomePage = () => {
               <Button asChild size="lg" className="bg-[#3A59D1] hover:bg-[#2A49C1] dark:bg-blue-600 dark:hover:bg-blue-700">
                 <Link to="/admissions">Kickstart Your IT Career</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
                 <Link to="/contact">Get Started</Link>
               </Button>
             </div>
@@ -317,7 +317,7 @@ const HomePage = () => {
             <Button asChild size="lg" className="bg-white text-[#3A59D1] hover:bg-gray-100 dark:bg-gray-200 dark:hover:bg-gray-300">
               <Link to="/admissions">Enroll Now</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
