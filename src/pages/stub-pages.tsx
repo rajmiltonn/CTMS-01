@@ -53,25 +53,26 @@ export const FacilitiesPage = () => {
     <Layout>
       <div className="container px-4 md:px-6 py-12 md:py-24">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-4">
-          Facilities at Cloud Tech Mind Solutions
+          Learning Facilities at Cloud Tech Mind Solutions
         </h1>
         <p className="text-gray-600 mb-8">
-          Cloud Tech Mind Solutions provides a professional and engaging environment designed to support modern learning needs.
-          Our infrastructure is tailored to encourage hands-on learning, technical exploration, and career development.
+          At Cloud Tech Mind Solutions, we provide a real-time learning environment with top-notch facilities to ensure 
+          every student is equipped for today's technology-driven world. Our goal is to foster innovation, collaboration, 
+          and career readiness in a modern setting.
         </p>
 
         <Card className="mb-10 bg-gray-50">
           <CardContent className="p-8">
-            <h2 className="text-2xl font-bold mb-4">Training Infrastructure</h2>
+            <h2 className="text-2xl font-bold mb-4">Our Training Infrastructure</h2>
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>Modern, air-conditioned classrooms with digital presentation tools</li>
-              <li>Dedicated labs for Full Stack Development, Data Science, and Salesforce practice</li>
-              <li>High-speed internet and cloud-based learning platforms</li>
-              <li>Collaborative workspaces for group discussions and project execution</li>
-              <li>Resource library with curated content and reference materials</li>
-              <li>One-on-one career guidance and mentoring zones</li>
-              <li>Dedicated spaces for soft skills and language training</li>
-              <li>Event areas for workshops, guest lectures, and placement training</li>
+              <li>Digitally enabled classrooms with smart presentation tools</li>
+              <li>Specialized labs for Full Stack, Salesforce, Python, and ML/AI practice</li>
+              <li>Seamless high-speed internet and cloud-accessible content</li>
+              <li>Real-time collaborative zones for coding, reviews, and demos</li>
+              <li>Library of curated technical resources and learning materials</li>
+              <li>Career guidance and mentorship bays for personal attention</li>
+              <li>Dedicated training space for soft skills and language development</li>
+              <li>Multipurpose zones for bootcamps, workshops, and guest lectures</li>
             </ul>
             <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1] mt-6">
               <Link to="/">Back to Home</Link>
