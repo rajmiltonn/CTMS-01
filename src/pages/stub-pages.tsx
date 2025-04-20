@@ -109,7 +109,6 @@ export const FacilitiesPage = () => {
 };
 
 // Admissions page
-// Admissions page
 export const AdmissionsPage = () => {
   return (
     <Layout>
@@ -154,20 +153,30 @@ export const NewsEventsPage = () => {
     <Layout>
       <div className="container px-4 md:px-6 py-12 md:py-24">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-4">
-          News & Events
+          News & Updates
         </h1>
         <p className="text-gray-600 mb-8">
-          Stay updated on the latest happenings at Excellence Academy, including upcoming events,
-          student achievements, and school announcements.
+          Stay informed with the latest developments at Cloud Tech Mind Solutions — from program launches 
+          and success stories to events, workshops, and tech insights.
         </p>
+
         <Card className="mb-10 bg-gray-50">
           <CardContent className="p-8">
-            <h2 className="text-2xl font-bold mb-4">School News & Calendar</h2>
+            <h2 className="text-2xl font-bold mb-4">CTMS Announcements & Calendar</h2>
             <p className="text-gray-600 mb-4">
-              This page would feature a regularly updated news section and an event calendar
-              highlighting important dates, celebrations, and academic activities.
+              This section features regularly updated content, including:
             </p>
-            <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1] mt-4">
+            <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+              <li>Upcoming Webinars, Bootcamps & Career Fairs</li>
+              <li>Student Success Stories & Placement Highlights</li>
+              <li>New Product Releases & Service Updates</li>
+              <li>Press Mentions & Strategic Collaborations</li>
+              <li>CTMS Announcements & Important Dates</li>
+            </ul>
+            <p className="text-gray-600 italic">
+              Keep an eye on what’s happening — because every event is a step toward transformation.
+            </p>
+            <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1] mt-6">
               <Link to="/">Back to Home</Link>
             </Button>
           </CardContent>
@@ -176,3 +185,4 @@ export const NewsEventsPage = () => {
     </Layout>
   );
 };
+
