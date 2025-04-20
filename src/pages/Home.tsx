@@ -135,7 +135,7 @@ const HomePage = () => {
                 </div>
                 <h3 className="mb-2 text-xl font-bold dark:text-white">Professional Success Stories</h3>
                 <p className="text-gray-600 mb-4 dark:text-gray-400">
-                Our learners have achieved top-tier placements and career breakthroughs, with freshers 
+                Our learners have achieved top-tier placements and career breakthroughs., with freshers 
                 earning up to ₹15 LPA and 400% salary hikes.
                 </p>
                 <Link to="/academics" className="text-sm font-medium text-[#3A59D1] hover:underline inline-flex items-center gap-1 dark:text-blue-300">
