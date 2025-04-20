@@ -109,25 +109,35 @@ export const FacilitiesPage = () => {
 };
 
 // Admissions page
+// Admissions page
 export const AdmissionsPage = () => {
   return (
     <Layout>
       <div className="container px-4 md:px-6 py-12 md:py-24">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-4">
-          Admissions
+          Enroll with CTMS
         </h1>
         <p className="text-gray-600 mb-8">
-          We welcome applications from students who are eager to learn and grow in our supportive and
-          challenging academic environment.
+          We welcome learners, professionals, and career changers who are eager to upgrade their skills and grow in today’s digital world.
         </p>
+
         <Card className="mb-10 bg-gray-50">
           <CardContent className="p-8">
-            <h2 className="text-2xl font-bold mb-4">Admissions Process</h2>
-            <p className="text-gray-600 mb-4">
-              This page would include detailed information about application requirements, deadlines,
-              tuition fees, financial aid options, and the admissions timeline.
+            <h2 className="text-2xl font-bold mb-4">Our Enrollment Process</h2>
+            <p className="text-gray-600 mb-2">
+              Get started on your transformation journey with CTMS. Here’s everything you need to know:
             </p>
-            <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1] mt-4">
+            <ul className="list-disc list-inside text-gray-600 mb-4 space-y-1">
+              <li><strong>Program Start Dates & Timelines</strong></li>
+              <li><strong>Eligibility & Application Requirements</strong></li>
+              <li><strong>Program Fees & Payment Plans</strong></li>
+              <li><strong>Scholarships & Financial Aid Options</strong></li>
+              <li><strong>Free Career Counseling & Technical Fitment Sessions</strong></li>
+            </ul>
+            <p className="text-gray-600 italic">
+              Take the First Step → Join a free counseling session or explore our courses to start your digital transformation journey.
+            </p>
+            <Button asChild className="bg-[#3A59D1] hover:bg-[#2A49C1] mt-6">
               <Link to="/">Back to Home</Link>
             </Button>
           </CardContent>
@@ -136,6 +146,7 @@ export const AdmissionsPage = () => {
     </Layout>
   );
 };
+
 
 // News & Events page
 export const NewsEventsPage = () => {
