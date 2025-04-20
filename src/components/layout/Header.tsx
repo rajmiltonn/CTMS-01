@@ -14,11 +14,11 @@ type NavLink = {
 const navLinks: NavLink[] = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About Us' },
-  { href: '/academics', label: 'Academics' },
-  { href: '/facilities', label: 'Facilities' },
-  { href: '/admissions', label: 'Admissions' },
-  { href: '/news-events', label: 'News & Events' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/courses', label: 'Courses' },
+  { href: '/services', label: 'Services' },
+  { href: '/testimonials', label: 'Transformations' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contact', label: 'Contact Us' },
 ];
 
 const Header = () => {
