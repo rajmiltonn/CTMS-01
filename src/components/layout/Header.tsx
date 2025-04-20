@@ -66,7 +66,7 @@ const Header = () => {
             className="hidden md:flex bg-[#3A59D1] hover:bg-[#2A49C1] text-white dark:bg-blue-600 dark:hover:bg-blue-700"
             asChild
           >
-            <Link to="/admissions">Enroll Now</Link>
+            <Link to="/contact">Enroll Now</Link>
           </Button>
 
           {/* Mobile Navigation */}
