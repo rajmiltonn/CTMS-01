@@ -317,7 +317,7 @@ const AboutPage = () => {
             <Button asChild size="lg" className="bg-white text-[#3A59D1] hover:bg-gray-100">
               <Link to="/admissions">Enroll Now</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
               <Link to="/contact">Book a Free Career Counselling Session</Link>
             </Button>
           </div>
