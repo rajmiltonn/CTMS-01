@@ -30,17 +30,18 @@ const HomePage = () => {
           <div className="absolute inset-0 bg-black/30 dark:bg-black/50" />
           <div className="container relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white md:px-6">
             <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
-              Welcome to Excellence Academy
+            Welcome to Cloud Tech Mind Solutions (CTMS)
             </h1>
             <p className="mb-8 max-w-xl text-lg text-white/90 hero-text">
-              Nurturing minds, building character, and inspiring excellence in education since 1995.
+            Empowering minds, transforming careers, and accelerating excellence in digital education and 
+            CRM innovation since inception.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <Button asChild size="lg" className="bg-[#3A59D1] hover:bg-[#2A49C1] dark:bg-blue-600 dark:hover:bg-blue-700">
-                <Link to="/admissions">Admissions Open</Link>
+                <Link to="/admissions">Kickstart Your IT Career</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-                <Link to="/contact">Book a Visit</Link>
+                <Link to="/contact">Get Started</Link>
               </Button>
             </div>
           </div>
@@ -52,16 +53,16 @@ const HomePage = () => {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col gap-10 lg:flex-row">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">About Our School</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">About Us</h2>
               <p className="text-gray-600 mb-6 dark:text-gray-300">
-                Excellence Academy is dedicated to providing an outstanding educational experience that fosters
-                academic excellence, personal growth, and social responsibility in a supportive and stimulating
-                environment.
+              Cloud Tech Mind Solutions (CTMS) is committed to delivering a transformative learning experience 
+              that fuels professional growth, technical excellence, and future-readiness in a dynamic and 
+              supportive environment.
               </p>
               <p className="text-gray-600 mb-6 dark:text-gray-300">
-                Our approach combines rigorous academics with a rich array of extracurricular activities,
-                ensuring that students develop both intellectually and as well-rounded individuals ready to
-                make positive contributions to society.
+              Our approach combines cutting-edge technical training with real-time project exposure and career 
+              guidance, ensuring learners evolve into confident, industry-ready professionals capable of 
+              driving innovation and value in today’s digital world.
               </p>
               <Button asChild variant="outline" className="gap-1 text-[#3A59D1] border-[#3A59D1] dark:text-blue-300 dark:border-blue-700">
                 <Link to="/about">
@@ -89,10 +90,10 @@ const HomePage = () => {
       <section className="py-16 bg-white dark:bg-gray-800">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">Academic Excellence</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">Technical Excellence</h2>
             <p className="text-gray-600 max-w-3xl mx-auto dark:text-gray-300">
-              Our curriculum combines traditional academic rigor with innovative teaching methods to inspire a
-              lifelong love of learning in every student.
+            Our training programs blend industry-relevant content with hands-on project experience to 
+            inspire continuous learning and career growth.
             </p>
           </div>
 
@@ -109,12 +110,13 @@ const HomePage = () => {
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900">
                   <Book className="h-5 w-5 text-[#3A59D1] dark:text-blue-300" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">Comprehensive Curriculum</h3>
+                <h3 className="mb-2 text-xl font-bold dark:text-white"> Career-Aligned Curriculum</h3>
                 <p className="text-gray-600 mb-4 dark:text-gray-400">
-                  Our balanced curriculum develops critical thinking and creativity across all subject areas.
+                A carefully curated curriculum that builds critical tech skills across Data Science, Salesforce, 
+                Digital Marketing, and more.
                 </p>
                 <Link to="/academics" className="text-sm font-medium text-[#3A59D1] hover:underline inline-flex items-center gap-1 dark:text-blue-300">
-                  Explore Curriculum <ArrowRight size={14} />
+                Explore Programs <ArrowRight size={14} />
                 </Link>
               </CardContent>
             </Card>
@@ -131,12 +133,13 @@ const HomePage = () => {
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900">
                   <Trophy className="h-5 w-5 text-[#3A59D1] dark:text-blue-300" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">Academic Achievements</h3>
+                <h3 className="mb-2 text-xl font-bold dark:text-white">Professional Success Stories</h3>
                 <p className="text-gray-600 mb-4 dark:text-gray-400">
-                  Our students consistently excel in national competitions and standardized tests.
+                Our learners have achieved top-tier placements and career breakthroughs, with freshers 
+                earning up to ₹15 LPA and 400% salary hikes.
                 </p>
                 <Link to="/academics" className="text-sm font-medium text-[#3A59D1] hover:underline inline-flex items-center gap-1 dark:text-blue-300">
-                  View Achievements <ArrowRight size={14} />
+                View Success Stories <ArrowRight size={14} />
                 </Link>
               </CardContent>
             </Card>
@@ -153,12 +156,13 @@ const HomePage = () => {
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900">
                   <Users className="h-5 w-5 text-[#3A59D1] dark:text-blue-300" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">Dedicated Faculty</h3>
+                <h3 className="mb-2 text-xl font-bold dark:text-white">Expert Mentorship</h3>
                 <p className="text-gray-600 mb-4 dark:text-gray-400">
-                  Our experienced teachers are committed to nurturing each student's unique potential.
+                Our instructors are seasoned industry professionals who guide every learner with real-world 
+                insights and personal mentoring.
                 </p>
                 <Link to="/about" className="text-sm font-medium text-[#3A59D1] hover:underline inline-flex items-center gap-1 dark:text-blue-300">
-                  Meet Our Teachers <ArrowRight size={14} />
+                Meet Our Experts <ArrowRight size={14} />
                 </Link>
               </CardContent>
             </Card>
@@ -170,10 +174,10 @@ const HomePage = () => {
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">World-Class Facilities</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">Modern Learning Experience</h2>
             <p className="text-gray-600 max-w-3xl mx-auto dark:text-gray-300">
-              Our campus provides state-of-the-art facilities designed to enhance the learning experience and support
-              student development in all areas.
+            Our platform delivers state-of-the-art digital learning, live project training, and tech bootcamps 
+            designed for today’s IT demands.
             </p>
           </div>
 
@@ -186,7 +190,7 @@ const HomePage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <h3 className="text-lg font-bold">Modern Classrooms</h3>
+                <h3 className="text-lg font-bold">Interactive Virtual Classrooms</h3>
               </div>
             </div>
 
@@ -198,7 +202,7 @@ const HomePage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <h3 className="text-lg font-bold">Extensive Library</h3>
+                <h3 className="text-lg font-bold">Rich Learning Library</h3>
               </div>
             </div>
 
@@ -210,7 +214,7 @@ const HomePage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <h3 className="text-lg font-bold">Science Laboratories</h3>
+                <h3 className="text-lg font-bold">Real-Time Project Labs</h3>
               </div>
             </div>
 
@@ -222,7 +226,7 @@ const HomePage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <h3 className="text-lg font-bold">Sports Facilities</h3>
+                <h3 className="text-lg font-bold">Industry Tools Access</h3>
               </div>
             </div>
           </div>
@@ -230,7 +234,7 @@ const HomePage = () => {
           <div className="text-center mt-10">
             <Button asChild variant="outline" className="gap-1 text-[#3A59D1] border-[#3A59D1] dark:text-blue-300 dark:border-blue-700 dark:hover:bg-blue-950/50">
               <Link to="/facilities">
-                View All Facilities <ChevronRight size={16} />
+              Explore Learning Tools <ChevronRight size={16} />
               </Link>
             </Button>
           </div>
@@ -241,9 +245,10 @@ const HomePage = () => {
       <section className="py-16 bg-white dark:bg-gray-800">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">What Our Community Says</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-4 dark:text-white">What Our Learners Say</h2>
             <p className="text-gray-600 max-w-3xl mx-auto dark:text-gray-300">
-              Hear from our parents and students about their experience at Excellence Academy.
+            Hear from our students, professionals, and entrepreneurs about their transformative 
+            journeys with Cloud Tech Mind Solutions.
             </p>
           </div>
 
@@ -251,16 +256,16 @@ const HomePage = () => {
             <div className="bg-gray-50 p-6 rounded-lg dark:bg-gray-900">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center">
-                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">RM</div>
+                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">AR</div>
                   <div className="ml-4">
-                    <p className="font-bold dark:text-white">Rachel Miller</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Parent</p>
+                    <p className="font-bold dark:text-white">Ajmi R</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Entrepreneur</p>
                   </div>
                 </div>
                 <Separator className="dark:bg-gray-700" />
                 <p className="text-gray-600 dark:text-gray-300">
-                  "The dedicated teachers and supportive environment at Excellence Academy have helped my daughter
-                  thrive both academically and socially. The personalized attention she receives is wonderful."
+                “After completing the Digital Marketing course at CTMS, I transformed my business 
+                strategy and tripled my revenue in just 6 months.”
                 </p>
               </div>
             </div>
@@ -268,16 +273,16 @@ const HomePage = () => {
             <div className="bg-gray-50 p-6 rounded-lg dark:bg-gray-900">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center">
-                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">JW</div>
+                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">AV</div>
                   <div className="ml-4">
-                    <p className="font-bold dark:text-white">James Wilson</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Student, Grade 10</p>
+                    <p className="font-bold dark:text-white">Avantika</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Final Year Student</p>
                   </div>
                 </div>
                 <Separator className="dark:bg-gray-700" />
                 <p className="text-gray-600 dark:text-gray-300">
-                  "I've found my passion for science through the amazing lab programs here. The teachers don't just
-                  teach from textbooks—they inspire us to explore and discover on our own."
+                “CTMS helped me land a dream job with 13 LPA even before graduation. The full stack training 
+                gave me an edge.”
                 </p>
               </div>
             </div>
@@ -285,16 +290,15 @@ const HomePage = () => {
             <div className="bg-gray-50 p-6 rounded-lg dark:bg-gray-900">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center">
-                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">DR</div>
+                  <div className="h-12 w-12 rounded-full bg-[#3A59D1] text-white flex items-center justify-center font-bold dark:bg-blue-700">SN</div>
                   <div className="ml-4">
-                    <p className="font-bold dark:text-white">Dr. Sarah Chen</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Education Specialist</p>
+                    <p className="font-bold dark:text-white">Shanmughanadhan</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Senior IT Professional</p>
                   </div>
                 </div>
                 <Separator className="dark:bg-gray-700" />
                 <p className="text-gray-600 dark:text-gray-300">
-                  "As an education professional, I'm impressed by Excellence Academy's curriculum. They strike the
-                  perfect balance between academic rigor and creative exploration."
+                “CTMS gave my 20+ year career a second wind. The transformation roadmap was a game-changer.”
                 </p>
               </div>
             </div>
@@ -305,13 +309,13 @@ const HomePage = () => {
       {/* Call to Action */}
       <section className="py-20 bg-[#3A59D1] text-white dark:bg-blue-800">
         <div className="container px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-bold tracking-tight mb-4">Join Our School Community</h2>
+          <h2 className="text-3xl font-bold tracking-tight mb-4">Join the CTMS Community</h2>
           <p className="max-w-2xl mx-auto mb-8 text-white/90">
-            Applications for the upcoming academic year are now open. Schedule a visit or apply today to secure your child's place.
+          Applications are open for upcoming programs. Book your free career counselling or get started today.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-[#3A59D1] hover:bg-gray-100 dark:bg-gray-200 dark:hover:bg-gray-300">
-              <Link to="/admissions">Apply Now</Link>
+              <Link to="/admissions">Enroll Now</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
               <Link to="/contact">Contact Us</Link>
