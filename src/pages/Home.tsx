@@ -1,14 +1,10 @@
-import React from 'react'; 
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Book, Trophy, Users, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import Layout from '@/components/layout/Layout';
-
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 // Import images
 import HeroImage from '@/assets/school-building.jpg';
@@ -20,79 +16,39 @@ import TeacherImage from '@/assets/classroom-teacher.jpg';
 import DiverseStudentsImage from '@/assets/diverse-students.jpg';
 import StudentsThumbsUpImage from '@/assets/students-thumbsup.jpg';
 
-const heroSlides = [
-  {
-    image: HeroImage,
-    title: 'Welcome to Cloud Tech Mind Solutions',
-    description: 'Empowering minds, transforming careers, and accelerating excellence in digital education.',
-  },
-  {
-    image: ClassroomImage,
-    title: 'Kickstart Your IT Career Today',
-    description: 'Real-world training in Full Stack, Data Science, Digital Marketing, and more.',
-  },
-  {
-    image: LibraryImage,
-    title: 'Achieve More With CTMS',
-    description: 'Explore learning paths that unlock career opportunities and innovation.',
-  }
-];
-
 const HomePage = () => {
-  const sliderSettings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4500,
-    pauseOnHover: false,
-    fade: true,
-  };
-
   return (
     <Layout>
-      {/* Hero Section with Slider */}
+      {/* Hero Section */}
       <section className="relative bg-white dark:bg-gray-900">
         <div className="relative h-[70vh] w-full overflow-hidden">
-          <Slider {...sliderSettings}>
-            {heroSlides.map((slide, idx) => (
-              <div key={idx} className="relative h-[70vh]">
-                <img
-                  src={slide.image}
-                  alt={`Slide ${idx + 1}`}
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-                <div className="absolute inset-0 bg-black/30 dark:bg-black/50" />
-                <div className="container relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white md:px-6">
-                  <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
-                    {slide.title}
-                  </h1>
-                  <p className="mb-8 max-w-xl text-lg text-white/90 hero-text">
-                    {slide.description}
-                  </p>
-                  <div className="flex flex-col gap-4 sm:flex-row">
-                    <Button asChild size="lg" className="bg-[#3A59D1] hover:bg-[#2A49C1] dark:bg-blue-600 dark:hover:bg-blue-700">
-                      <Link to="/admissions">Kickstart Your IT Career</Link>
-                    </Button>
-                    <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
-                      <Link to="/contact">Get Started</Link>
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
+          <img
+            src={HeroImage}
+            alt="School building"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30 dark:bg-black/50" />
+          <div className="container relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white md:px-6">
+          <h1 className="mb-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl hero-text">
+  Welcome to<br />
+  Cloud Tech Mind Solutions
+</h1>
+
+            <p className="mb-8 max-w-xl text-lg text-white/90 hero-text">
+            Empowering minds, transforming careers, and accelerating excellence in digital education and 
+            CRM innovation since inception.
+            </p>
+            <div className="flex flex-col gap-4 sm:flex-row">
+              <Button asChild size="lg" className="bg-[#3A59D1] hover:bg-[#2A49C1] dark:bg-blue-600 dark:hover:bg-blue-700">
+                <Link to="/admissions">Kickstart Your IT Career</Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-white text-[#3A59D1] hover:bg-white/10">
+                <Link to="/contact">Get Started</Link>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
-
-      {/* Rest of the page remains unchanged */}
-      {/* About, Academics, Facilities, Testimonials, CTA */}
-      {/* (Keep all your original code from below this line) */}
-
-
 
       {/* About Us Preview */}
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
